@@ -21,8 +21,8 @@
     display: none;
   }
 
-  li.file.status-modified:not(.selected) {
-    color: @text-color;
+  li.file.status-modified {
+    color: @text-color-modified;
     span:after {
       content: '';
       width: 6px;
@@ -31,11 +31,13 @@
       display: inline-block;
       border-radius: 6px;
       margin-left: 10px;
-      color: @text-color;
+      color: @text-color-modified;
+      /*
       -webkit-animation-name: pulse;
       -webkit-animation-duration: 1s;
       -webkit-animation-timing-function: linear;
       -webkit-animation-iteration-count: infinite;
+      */
     }
 
   }
