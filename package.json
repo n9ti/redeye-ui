@@ -4,10 +4,11 @@
   "version": "0.4.0",
   "description": "Crack a red bull and get this party started",
   "license": "MIT",
-  "repository": "https://github.com/kenwheeler/brogrammer-ui",
+  "repository": "https://github.com/flyingnati/redeye-ui",
   "keywords": [
     "dark",
-    "flat",
+    "red",
+    "redeye",
     "brogrammer"
   ],
   "engines": {
